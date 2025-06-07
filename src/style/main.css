@@ -1,1 +1,38 @@
-@import url('./header.css')
+
+@import url('./external/reset.css');
+@import url('./header.css');
+@import url('./sec01.css');
+@import url('./sec02.css');
+@import url('./footer.css');
+
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.arrow-scroll{
+    background-color:  rgba(70, 104, 43, 0.767);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: fixed;
+    right: 30px;
+    bottom: 10px;
+}
+
+.arrow-scroll:hover{
+        cursor: pointer;
+}
+
+.arrow-scroll img {
+    width: 25px;
+}

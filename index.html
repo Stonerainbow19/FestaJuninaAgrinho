@@ -4,12 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style/main.css">
+    <link rel="shortcut icon" href="/src/assets/img/logo3d.png">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        
+    <header id="headerId">
+        <img src="/src/assets/img/logo3d.png" alt="logo" id="logo">
+
+        <div class="a-wrapper-header">
+            <a href="" aria-label="">História</a>
+            <a href="" aria-label="">Referências</a>
+            <a href="" aria-label="">Sobre mim</a>
+            <button class="btn-header btn-header-accessibility" id="btn-sum-acessibility">Aa +</button>
+            <button class="btn-header btn-header-accessibility" id="btn-lower-acessibility">Aa -</button>
+            <a href="" aria-label=""><button class="btn-header">Eventos</button></a>
+           
+        </div>
 
     </header>
+
+    <section id="sec01">
+      <div class="title-sec01"> 
+            <h1>FESTA JUNINA</h1>
+            <h2>Festeje a conexão campo-cidade</h2>
+      </div>
+      <!-- 
+      <div class="custom-shape-divider-bottom-1749331194">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+      </div>
+      -->
+
+    </section>
+    
+    <section id="sec02">
+
+    </section>
+
+    <a class="arrow-scroll" href="#headerId">
+          <img src="./src/assets/img/setas-flechas.png" alt="seta para scroll para o inicio da página">
+    </a>
+
+    <footer>
+        <p>@2025 | Concurso Agrinho: Programação | Festejando a conexão campo-cidade | Todos os direitos reservados.</p>
+
+    </footer>
+
+
+
+    <script src="./src/script/buttonAcessibility.js"></script>
+
+    <!-- start VLibras -->
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>   
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+    </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <!-- end VLibras -->
+  
 </body>
 </html>

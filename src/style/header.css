@@ -1,3 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 header {
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+#logo {
+    width: 110px;
+    height: 110px;
+}
+
+
+
+.a-wrapper-header a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: black;
+    font-family: "Roboto", sans-serif;
+      font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    margin: 0 5px;
+
+}
+
+.a-wrapper-header a:hover{
+    box-shadow: 0px 2px 0px black;
+    cursor: pointer;
+
+}
+
+.btn-header {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(70, 104, 43, 0.767);
+    color: white;
+}
+
+.btn-header-accessibility{
+    background-color: rgba(36, 160, 177, 0.767);
+}
+
+
+.btn-header:hover {
+    cursor: pointer;
+    background-color: rgba(12, 78, 53, 0.993);
+}
+.btn-header-accessibility:hover{
+    cursor: pointer;
+    background-color: rgba(29, 105, 116, 0.767);
 }
