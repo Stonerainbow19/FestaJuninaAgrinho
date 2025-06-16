@@ -36,20 +36,20 @@ header {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: rgba(70, 104, 43, 0.767);
+    background-color: rgba(180, 97, 30, 0.767);
     color: white;
 }
 
 .btn-header-accessibility{
-    background-color: rgba(36, 160, 177, 0.767);
+    background-color: rgba(75, 136, 60, 0.767);
 }
 
 
 .btn-header:hover {
     cursor: pointer;
-    background-color: rgba(12, 78, 53, 0.993);
+    background-color: rgba(124, 67, 20, 0.767);
 }
 .btn-header-accessibility:hover{
     cursor: pointer;
-    background-color: rgba(29, 105, 116, 0.767);
+    background-color: rgba(55, 100, 44, 0.767);
 }

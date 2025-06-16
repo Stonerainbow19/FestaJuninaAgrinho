@@ -1,3 +1,26 @@
 #sec02{
-    height: 50vh;
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 0 ;
 }
+
+.container {
+    width: 50%;
+    
+}
+
+.container h2{
+    color:  rgba(75, 136, 60, 0.767);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.ballon{
+    height: 270px;
+}
+

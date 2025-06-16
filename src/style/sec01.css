@@ -5,7 +5,7 @@
     background-size: cover;
 
     background-repeat: no-repeat;
-    height: 50vh;
+    min-height: 60vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ h1 {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 4.5rem;
+
 }
 
 h1,h2 {
