@@ -9,11 +9,6 @@
     font-weight: bold;
 }
 
-.grid-receitas{
-    width: 60%;
-}
-
-
 .title-receitas {
     color: white;
     background-color: var(--terciaryColor);
@@ -100,6 +95,7 @@
 
 
 .grid-receitas {
+    width: 60%s;
     justify-content: center;
     align-self: center;
     display: grid;

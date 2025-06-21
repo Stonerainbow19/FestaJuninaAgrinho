@@ -6,10 +6,12 @@
 @import url('./sec03.css');
 @import url('./sec04.css');
 @import url('./sec05.css');
-@import url('./main_responsive.css');
+
 
 @import url('./receitas.css');
 @import url('./brincadeiras.css');
+
+@import url('./main_responsive.css');
 
 @import url('./variables.css');
 @import url('./footer.css');

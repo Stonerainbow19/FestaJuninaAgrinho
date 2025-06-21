@@ -115,4 +115,21 @@
         height: 100px;
     }
 
+
+    .grid-brincadeiras, .grid-receitas {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px; 
+    }
+
+
+    #sec-receitas, #sec-brincadeiras{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
