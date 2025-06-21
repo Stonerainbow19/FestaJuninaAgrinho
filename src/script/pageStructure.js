@@ -1,6 +1,42 @@
+const menuHamburguer = `
+
+
+
+    <div class="menu-hamburguer">
+        <input type="checkbox" id="menu-check">
+        <label class="bars" for="menu-check">
+            <div class="wrapper-bars">
+                <span class="bars-item"></span>
+                <span class="bars-item"></span>
+                <span class="bars-item"></span>
+            </div>
+        </label>
+
+
+        
+    <div id="list-menu-hamburguer">
+            <ul>
+                <li><a href="../../index.html" aria-label="">Página inicial</a></li>
+                <li><a href="/src/pages/brincadeiras.html" aria-label="">Brincadeiras</a></li>
+                <li><a href="/src/pages/receitas.html" aria-label="">Receitas</a></li>
+                <li><a href="/src/pages/references.html" aria-label="">Referências</a></li>
+            </ul>
+    </div>
+    </div>
+
+
+    <div class="btn-accessibility"> 
+        <button class="btn-header btn-header-accessibility " id="btn-sum-acessibility">Aa+</button>
+        <button class="btn-header btn-header-accessibility " id="btn-lower-acessibility">Aa-</button>
+        <button class="btn-header" id="btn-redefine-acessibility">R</button>
+    </div>
+
+
+`
+
 const headerContent = `
         <a href="../../index.html"><img src="/src/assets/img/logo1.png" alt="logo" id="logo"></a>
-
+        ${menuHamburguer}
         <div class="a-wrapper-header">
             <a href="../../index.html" aria-label="">Página inicial</a>
             <a href="/src/pages/brincadeiras.html" aria-label="">Brincadeiras</a>

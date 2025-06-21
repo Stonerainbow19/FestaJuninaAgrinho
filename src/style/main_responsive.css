@@ -1,0 +1,118 @@
+@media only screen and (max-width: 800px) {
+
+    .a-wrapper-header {
+        display: none;
+    }
+
+    .menu-hamburguer {
+        display: block;
+    }
+    
+
+    
+    .bars {
+        position: relative;
+    }
+
+    .bars span{
+        position: absolute;
+        background-color: #000;
+        display: block;
+        width: 40px;
+        height: 8px;
+        border-radius: 20px;
+        transition: 0.5s all;
+    }
+
+    .bars span {
+        right: 0px;
+    }
+
+    .bars span:nth-child(1){
+        top: -15px;
+
+    }
+    .bars span:nth-child(2){
+        top: 0px;
+
+    }
+    .bars span:nth-child(3){
+        top: 15px;
+
+    }
+
+    .btn-accessibility {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position:fixed;
+        bottom: 10px;
+        left: 10px;
+        z-index: 1000;
+    
+    }
+
+    #menu-check:checked ~ .bars .wrapper-bars .bars-item:nth-child(1) {
+        transform: rotate(45deg);
+        top: 0px;
+            
+    }   
+
+    #menu-check:checked ~ .bars .wrapper-bars .bars-item:nth-child(2) {
+        opacity: 0;
+    }
+
+    #menu-check:checked ~ .bars .wrapper-bars .bars-item:nth-child(3) {
+        transform: rotate(-45deg);
+        top: 0px;
+          
+    }
+
+    #logo {
+    width: 100px;
+    height: 100px;
+    }
+    
+    #menu-check{
+        display: none;
+    }
+
+    #list-menu-hamburguer {
+        background-color: rgba(255, 255, 255, 0.658);
+        height: auto;
+        width: 60%;
+        padding: 50px;
+        display: none;
+        position: absolute;
+        top:100px;
+        left: 0;
+        z-index: 100000;
+        border-radius: 10px;
+        transition: 0.5s all ease;
+    }
+
+    #list-menu-hamburguer a{
+        text-decoration: none;
+        color: #000;
+        font-size: 1.2rem;
+    }
+
+    
+    #list-menu-hamburguer a:hover{
+        text-decoration:overline;
+        color: #000;
+    }
+
+    #menu-check:checked ~ #list-menu-hamburguer {
+        display: block;
+    }
+    
+ 
+
+
+
+    .custom-shape-divider-bottom-1750282183 svg {
+        height: 100px;
+    }
+
+}

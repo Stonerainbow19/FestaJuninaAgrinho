@@ -55,3 +55,12 @@ header {
     cursor: pointer;
     background-color: var(--principalColorHover);
 }
+
+
+.list-menu-hamburguer, .menu-hamburguer {
+    display: none;
+}
+
+.btn-accessibility{
+    display: none;
+}
