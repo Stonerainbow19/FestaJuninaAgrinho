@@ -1,26 +1,26 @@
+@import url('variables.css');
 #sec02{
-    min-height: 50vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    padding: 10px 0 ;
+    position: relative;
 }
 
-.container {
-    width: 50%;
-    
+
+.custom-shape-divider-bottom-1750273377 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 
-.container h2{
-    color:  rgba(75, 136, 60, 0.767);
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 3rem;
+.custom-shape-divider-bottom-1750273377 svg {
+    position: relative;
+    display: block;
+    width: calc(175% + 1.3px);
+    height: 0px;
 }
 
-.ballon{
-    height: 270px;
+.custom-shape-divider-bottom-1750273377 .shape-fill {
+    fill: var(--secundaryColor);
 }
 

@@ -1,0 +1,8 @@
+:root {
+    --principalColor:  #995414c4;
+    --secundaryColor:  rgba(180, 97, 30, 0.767);
+    --terciaryColor: #753c0d;
+
+    --principalColorHover:  rgba(83, 47, 13, 0.767);
+    --secundaryColorHover: rgba(124, 67, 20, 0.767);
+}

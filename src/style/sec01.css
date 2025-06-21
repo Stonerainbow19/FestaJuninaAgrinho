@@ -33,23 +33,23 @@ h1,h2 {
 
 }
 
-.custom-shape-divider-bottom-1749331194 {
+
+.custom-shape-divider-bottom-1750282183 {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1749331194 svg {
+.custom-shape-divider-bottom-1750282183 svg {
     position: relative;
     display: block;
-    width: calc(139% + 1.3px);
-    height: 122px;
+    width: calc(100% + 1.3px);
+    height: 300px;
 }
 
-.custom-shape-divider-bottom-1749331194 .shape-fill {
+.custom-shape-divider-bottom-1750282183 .shape-fill {
     fill: #FFFFFF;
 }

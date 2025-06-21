@@ -4,6 +4,13 @@
 @import url('./sec01.css');
 @import url('./sec02.css');
 @import url('./sec03.css');
+@import url('./sec04.css');
+@import url('./sec05.css');
+
+@import url('./receitas.css');
+@import url('./brincadeiras.css');
+
+@import url('./variables.css');
 @import url('./footer.css');
 
 
@@ -22,18 +29,8 @@ h1 {
     font-size: 4.5rem;
 }
 
-
-/*
-.flags {
-    background-image: url("/src/assets/img/bandeirinhas_festa_junina.png");
-    width: 100%;
-    height: 50px;
-
-}
-
-*/
 .arrow-scroll{
-    background-color:  rgba(70, 104, 43, 0.767);
+    background-color: var(--principalColor);
     width: 40px;
     height: 40px;
     display: flex;
@@ -52,3 +49,44 @@ h1 {
 .arrow-scroll img {
     width: 25px;
 }
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 50vh;
+    padding: 20px 0;
+    .container {
+            width: 50%;
+            
+    }
+}
+
+
+.sec-background-color,.sec-background-white{
+        h2{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+        }
+}
+
+.sec-background-white {
+    background-color: white;
+
+    h2 {
+        color: var(--terciaryColor);
+    }
+}
+
+.sec-background-color {
+    background-color: var(--terciaryColor);
+    color: #fff;
+
+    h2 {
+        color: #fff;
+    }
+}
+

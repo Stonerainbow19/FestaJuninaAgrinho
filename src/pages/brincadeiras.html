@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style/main.css">
+    <title>Festa Junina - Brincadeiras</title>
+
+</head>
+<body>
+    <header id="headerId"></header>
+    <section id="sec-brincadeiras" class="sec-background-color">
+        <div class="container">
+          <h1>BRINCADEIRAS</h1>
+          <article>
+          </article>
+        </div>
+  </section>
+
+    <section id="wrapper-brincadeiras">
+        <div class="grid-brincadeiras">
+
+          
+        </div>
+        <div class="modal-brincadeiras" id="modal-brincadeirasID">
+            <div class="window-modal-brincadeiras"> 
+              <button class="btn-exit-brincadeiras" onclick="exitWindow()">X</button>
+              <div class="img-modal-brincadeiras">
+                <img src="/src/assets/img/cachorro-quente.png" alt="">
+              </div>
+              <div class="content-modal-brincadeiras">
+                  <h2>NOME DA BRINCADEIRAS</h2>
+
+                  <p></p>
+
+
+                  <h3>MATERIAIS</h3>
+                  <ul class="list-ingredientes">
+                      
+                  </ul>
+
+                  <h3>PROCEDIMENTO</h3>
+                  <ol class="list-procedimento">
+                    
+                  </ol>
+
+                  
+                  <h3>REGRAS</h3>
+                  <ul class="list-regras">
+                  
+                  </ul>
+
+              </div>
+           </div>
+        </div>
+    </section>
+
+    <footer id="footerId"></footer>
+
+    
+    <script src="/src/script/pageStructure.js"></script>
+    <script src="/src/script/brincadeiras.js"></script>
+    <!-- start VLibras -->
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>   
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+    </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <!-- end VLibras -->
+</body>
+</html>
