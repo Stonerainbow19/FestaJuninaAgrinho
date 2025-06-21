@@ -1,7 +1,4 @@
 const menuHamburguer = `
-
-
-
     <div class="menu-hamburguer">
         <input type="checkbox" id="menu-check">
         <label class="bars" for="menu-check">
@@ -12,16 +9,14 @@ const menuHamburguer = `
             </div>
         </label>
 
-
-        
-    <div id="list-menu-hamburguer">
-            <ul>
-                <li><a href="../../index.html" aria-label="">Página inicial</a></li>
-                <li><a href="/src/pages/brincadeiras.html" aria-label="">Brincadeiras</a></li>
-                <li><a href="/src/pages/receitas.html" aria-label="">Receitas</a></li>
-                <li><a href="/src/pages/references.html" aria-label="">Referências</a></li>
-            </ul>
-    </div>
+        <div id="list-menu-hamburguer">
+                <ul>
+                    <li><a href="../../index.html" aria-label="">Página inicial</a></li>
+                    <li><a href="/src/pages/brincadeiras.html" aria-label="">Brincadeiras</a></li>
+                    <li><a href="/src/pages/receitas.html" aria-label="">Receitas</a></li>
+                    <li><a href="/src/pages/references.html" aria-label="">Referências</a></li>
+                </ul>
+        </div>
     </div>
 
 

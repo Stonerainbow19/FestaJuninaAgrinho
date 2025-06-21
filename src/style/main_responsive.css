@@ -46,7 +46,7 @@
         flex-direction: column;
         gap: 10px;
         position:fixed;
-        bottom: 10px;
+        bottom: 30px;
         left: 10px;
         z-index: 1000;
     
@@ -80,15 +80,22 @@
     #list-menu-hamburguer {
         background-color: rgba(255, 255, 255, 0.658);
         height: auto;
-        width: 60%;
+        width: 70%;
         padding: 50px;
         display: none;
         position: absolute;
         top:100px;
-        left: 0;
+        left: 20px;
         z-index: 100000;
         border-radius: 10px;
         transition: 0.5s all ease;
+    }
+
+    #list-menu-hamburguer li {
+        padding: 20px 0;
+        box-shadow: 0px 1px 2px #00000086;
+        text-align: center;
+        width: 100%;
     }
 
     #list-menu-hamburguer a{
@@ -126,9 +133,6 @@
 
     #sec-receitas, #sec-brincadeiras{
         text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
 

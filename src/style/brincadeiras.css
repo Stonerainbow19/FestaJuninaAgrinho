@@ -2,6 +2,7 @@
     background-image: url('/src/assets/img/brincadeiras.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 @import url('/src/style/variables.css');
