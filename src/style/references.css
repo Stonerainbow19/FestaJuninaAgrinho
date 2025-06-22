@@ -1,0 +1,76 @@
+
+ .card-references {
+    box-shadow: 1px 1px 5px #00000096;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5 all ease;
+    padding: 10px;
+ }
+ 
+.card-references:hover {
+    box-shadow: 1px 1px 5px #00000075;
+ }
+
+
+.card-references h3{
+    font-size: 1.3rem;
+ }
+
+.card-references img{
+    border-radius: 10px;
+    height: auto;   
+    width: 100px; 
+ }
+
+.card-receitas-wrapper{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+ .card-references a {
+    text-decoration: none;
+    color: var(--principalColor);
+ }
+
+ .card-references a:hover {
+    color: var(--terciaryColor);
+ }
+
+
+
+ .grid-references {
+    width: 60%;
+    justify-content: center;
+    align-content: center;  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; 
+
+
+}
+
+.title-references {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+
+
+}
+
+.title-references h2 {
+        color: var(--terciaryColor);
+}

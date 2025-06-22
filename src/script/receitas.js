@@ -57,12 +57,60 @@ function openWindow(event){
     document.querySelector('.name-modal-receitas').innerText = name;
     document.getElementById('img-receitas').src = img;
     
-
+    console.log(parentElement)
     modalWindow.style.display = "flex";
 
+    
+        
+    contentWindow(["abc","def"],["ppp","lll"]);
+    
+
 }
+
+
+
+
 
 function exitWindow(){
     modalWindow.style.display = "none";
+    clearContentWindow();
 }
 
+
+
+function contentWindow(listIngredientes,listProcedimentos){
+    let listIngredientesHTML;
+    let listProcedimentosHTML;
+
+    for(let i = 0; i < listIngredientes.length; i++){
+        listIngredientesHTML += `
+        <li>${listIngredientes[i]}</li>
+        
+        `
+    }
+
+
+    for(let i = 0; i < listProcedimentos.length; i++){
+        listProcedimentosHTML += `
+        <li>${listProcedimentos[i]}</li>
+        
+        `
+    }
+
+    document.querySelector(".content-modal-receitas").innerHTML +=`
+                <h3>INGREDIENTES</h3>
+                <ul class="list-ingredientes">
+                    ${listIngredientesHTML}
+                </ul>
+
+                <h3>PROCEDIMENTO</h3>
+                <ol class="list-procedimento">
+                    ${listProcedimentosHTML}
+                </ol>
+    `
+
+}
+
+function clearContentWindow(){
+    document.querySelector(".content-modal-receitas").innerHTML = ""
+}

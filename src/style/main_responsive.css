@@ -128,7 +128,7 @@
     }
 
 
-    .grid-brincadeiras, .grid-receitas {
+    .grid-brincadeiras, .grid-receitas, .grid-references {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 20px;
@@ -149,6 +149,22 @@
     .img-modal-brincadeiras img, .img-modal-receitas img{
         width: 100px;
     }
+
+
+    .card-receitas img{
+        width: 130px;
+        height: 130px;
+    }
+
+    .card-receitas, .card-brincadeiras {
+        width: 300px;
+        height: 200px;
+    }
+
+    .card-receitas-info img {
+    width: 30px;
+    height: 30px;
+}
 
 
 
