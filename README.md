@@ -20,7 +20,7 @@
 
 
 <p align="center">
-    <img src="/src/assets/img/site-printscreen.png" alt="Image Example" width="400px">
+    <img src="src/assets/img/site-printscreen.png" alt="Image Example" width="400px">
 </p>
 
 <h2 id="started">📌 Sobre o projeto</h2>
