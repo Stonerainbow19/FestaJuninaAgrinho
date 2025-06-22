@@ -109,8 +109,6 @@
 
 .modal-brincadeiras {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,7 +137,7 @@
 
     }
     width: 60vw;
-    height: 80vh;
+    height: 50vh;
     background-color: #ffffff9a;
     display: flex;
     justify-content: space-around;
@@ -179,4 +177,9 @@
     display: flex;
     align-items: center;
 
+}
+
+.modal-brincadeiras-info h2{
+    position: absolute;
+    top: 50px;
 }

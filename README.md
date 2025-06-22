@@ -5,7 +5,7 @@
 
 
 
-<div align="center"><img src="src/assets/img/logo1.png" width="100px"> <h1 align="center" style="font-weight: bold;">Festa Junina 💻🪁</h1> </div>
+<div display="flex" align="center"><img src="src/assets/img/logo1.png" width="100px"> <h1 align="center" style="font-weight: bold;">Festa Junina 💻🪁</h1> </div>
 
 
 ![javascript][JAVASCRIPT__BADGE]
@@ -13,9 +13,12 @@
 ![css][CSS3]
 
 <p align="center">
- <a href="#about">Sobre o projeto</a> • 
- <a href="#started">Acessebilidade</a> • 
-  <a href="#started">Navegação</a>
+  <a href="#about">Sobre o projeto</a> • 
+  <a href="#started">Acessibilidade </a> • 
+  <a href="#started">Originalidade </a> • 
+  <a href="#started">Navegação</a> •
+  <a href="#started">Desenvolvedor</a>
+
 </p>
 
 
@@ -41,13 +44,12 @@ Here you list all prerequisites necessary for running your project. For example:
 
 <h3>Vlibras</h3>
 
+<h2 id="started">🧠 Originalidade</h2>
+
+Here you describe how to run your project locally
+
+
 How to clone your project
-
-
-
-<h3>Starting</h3>
-
-How to start your project
 
 
 
@@ -65,9 +67,3 @@ Here you can list the main routes of your API, and what are their expected reque
 
 Special thank you for all people that contributed for this project.
 
-
-<h3>Documentations that might help</h3>
-
-[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
-
-[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)

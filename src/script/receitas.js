@@ -2,15 +2,15 @@ const gridReceitas = document.querySelector('.grid-receitas');
 
 const modalWindow = document.getElementById("modal-receitasID");
 
-let count = 0;
+let namesReceitas = []
 
 function createCard(name, fileIMG,sugary){
     let sugaryOrsalt;
     if(sugary){
-        sugaryOrsalt = '<img src="/src/assets/img/bolinho.png" alt=""></img>'
+        sugaryOrsalt = '<img src="/src/assets/img/bolinho.png" alt="Doce"></img>'
         
     }else {
-        sugaryOrsalt = '<img src="/src/assets/img/croisant.png" alt=""></img>'
+        sugaryOrsalt = '<img src="/src/assets/img/croisant.png" alt="Salgado"></img>'
     }   
     gridReceitas.innerHTML+= `
             <div class="card-receitas" onclick="openWindow(event)">
@@ -20,14 +20,26 @@ function createCard(name, fileIMG,sugary){
                   <div class="card-receitas-info">
                       ${sugaryOrsalt}
                       <div class="relogio-receitas">
-                          <img src="/src/assets/img/relogio.png" alt="">
+                          <img src="/src/assets/img/relogio.png" alt="Tempo estimado de preparo">
                           <h3>2hrs</h3>
                       </div>
                   </div>
               </div>
             </div>
     `
+    name = name.split("</br>")
+    if(name.length >= 2){
+
+        name = name[0] +name[1];
+
+    }else {
+        name = name[0];
+    }
+
+    namesReceitas.push(name)
 };
+
+
 
 createCard("Canjica","canjica.png",true);
 createCard("Pamonha Salgada","pamonha.png",false);
@@ -41,8 +53,14 @@ createCard("Cural","cural.png",true);
 
 
 function openWindow(event){
-    modalWindow.style.top = `${event.clientY+200}px` ;
+    clearContentWindow()
     const elementClicked = event.target;
+
+    const positionElement = elementClicked.getBoundingClientRect();
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    const topPosition = scrollTop + positionElement.top
+
+    modalWindow.style.top = `${topPosition - 100}px`;
     const parentElement = elementClicked.offsetParent;
     
     const img = parentElement.children[0].src;
@@ -61,8 +79,45 @@ function openWindow(event){
     modalWindow.style.display = "flex";
 
     
-        
-    contentWindow(["abc","def"],["ppp","lll"]);
+    switch (name){
+        case namesReceitas[0]:
+            contentWindow([],[]);
+            break;
+
+        case namesReceitas[1]:
+            contentWindow([],[]);
+            break;
+
+        case namesReceitas[2]:
+            contentWindow([],[]);
+            break;
+
+        case namesReceitas[3]:
+            contentWindow([],[]);
+            break;
+
+        case namesReceitas[4]:
+            contentWindow([],[]);
+            break;
+
+        case namesReceitas[5]:
+            contentWindow([],[]);
+            break;
+
+        case namesReceitas[6]:
+            contentWindow([],[]);
+            break;
+
+        case namesReceitas[7]:
+            contentWindow([],[]);
+            break;
+
+        case namesReceitas[8]:
+            contentWindow([],[]);
+
+    }
+    
+    
     
 
 }
@@ -98,11 +153,12 @@ function contentWindow(listIngredientes,listProcedimentos){
     }
 
     document.querySelector(".content-modal-receitas").innerHTML +=`
+                
                 <h3>INGREDIENTES</h3>
                 <ul class="list-ingredientes">
                     ${listIngredientesHTML}
                 </ul>
-
+                
                 <h3>PROCEDIMENTO</h3>
                 <ol class="list-procedimento">
                     ${listProcedimentosHTML}

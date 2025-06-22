@@ -1,5 +1,5 @@
 @import url('/src/style/variables.css');
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
 
     .a-wrapper-header {
         display: none;
@@ -165,6 +165,21 @@
     width: 30px;
     height: 30px;
 }
+
+
+
+}
+
+
+@media only screen and (min-width: 950px) and (max-width:1500px) { 
+
+    .grid-brincadeiras, .grid-receitas, .grid-references {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; 
+    }
+
 
 
 

@@ -21,9 +21,9 @@ const menuHamburguer = `
 
 
     <div class="btn-accessibility"> 
-        <button class="btn-header btn-header-accessibility " id="btn-sum-acessibility">Aa+</button>
-        <button class="btn-header btn-header-accessibility " id="btn-lower-acessibility">Aa-</button>
-        <button class="btn-header" id="btn-redefine-acessibility">R</button>
+        <button class="btn-header btn-header-accessibility " id="btn-sum-acessibility-mobile">Aa+</button>
+        <button class="btn-header btn-header-accessibility " id="btn-lower-acessibility-mobile">Aa-</button>
+        <button class="btn-header" id="btn-redefine-acessibility-mobile">R</button>
     </div>
 
 
@@ -58,15 +58,22 @@ footer.innerHTML = footerContent;
 // Acessibilidade - Acessibility
 let fontSize = 1;
 
-const btnSum= document.querySelector('#btn-sum-acessibility');
-const btnLower = document.querySelector('#btn-lower-acessibility');
+const btnSum= document.querySelector('#btn-sum-acessibility') 
+const btnLower = document.querySelector('#btn-lower-acessibility') 
 const btnRedefine = document.querySelector('#btn-redefine-acessibility')
 
+const btnSumMobile = document.querySelector('#btn-sum-acessibility-mobile');
+const btnLowerMobile = document.querySelector('#btn-lower-acessibility-mobile');
+const btnRedefineMobile = document.querySelector('#btn-redefine-acessibility-mobile');
+
+
+/* Desktop events */
 btnSum.addEventListener("click", ()=>{
     fontSize += 0.25;
     document.body.style.fontSize = fontSize+'rem';
 }
 )
+
 
 btnLower.addEventListener("click", ()=>{
     fontSize -= 0.25;
@@ -77,6 +84,28 @@ btnLower.addEventListener("click", ()=>{
 })
 
 btnRedefine.addEventListener("click", ()=>{
+    fontSize = 1;
+    document.body.style.fontSize = fontSize+'rem';
+})
+
+
+/* Mobile events */
+
+btnSumMobile.addEventListener("click", ()=>{
+    fontSize += 0.25;
+    document.body.style.fontSize = fontSize+'rem';
+}
+)
+
+btnLowerMobile.addEventListener("click", ()=>{
+    fontSize -= 0.25;
+    if(fontSize <= 0){
+        fontSize = 0.25;
+    }
+    document.body.style.fontSize = fontSize+'rem';
+})
+
+btnRedefineMobile.addEventListener("click", ()=>{
     fontSize = 1;
     document.body.style.fontSize = fontSize+'rem';
 })
