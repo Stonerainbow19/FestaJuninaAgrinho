@@ -42,6 +42,14 @@ createCard("Cural","cural.png",true);
 
 function openWindow(event){
     modalWindow.style.top = `${event.clientY+200}px` ;
+    const elementClicked = event.target;
+    const parentElement = elementClicked.offsetParent;
+    
+    const img = parentElement.children[0].src;
+    const name = parentElement.children[1].innerText;
+    document.querySelector('.name-modal-receitas').innerText = name;
+    document.getElementById('img-receitas').src = img;
+
     modalWindow.style.display = "flex";
 
 }

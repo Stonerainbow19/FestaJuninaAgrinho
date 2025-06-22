@@ -4,14 +4,7 @@ const modalWindow = document.getElementById("modal-brincadeirasID");
 
 let count = 0;
 
-function createCard(name, fileIMG,sugary){
-    let sugaryOrsalt;
-    if(sugary){
-        sugaryOrsalt = '<img src="/src/assets/img/bolinho.png" alt=""></img>'
-        
-    }else {
-        sugaryOrsalt = '<img src="/src/assets/img/croisant.png" alt=""></img>'
-    }   
+function createCard(name, fileIMG){
     gridReceitas.innerHTML+= `
             <div class="card-receitas" onclick="openWindow(event)">
                 <img src="/src/assets/img/${fileIMG}" alt="">
@@ -23,20 +16,27 @@ function createCard(name, fileIMG,sugary){
     `
 };
 
-createCard("Pescaria","pescaria.png",true);
-createCard("Boca do palhaço","palhaco.png",false);
-createCard("Corrida de saco", "corrida-de-saco.png",true);
-createCard("Dança das cadeiras", "cadeiras.png",false);
-createCard("Rabo </br>de burro", "burro.png",true);
-createCard("Jogo da argola", "argolas.png",false);
-createCard("Cadeia", "cadeia.png",false);
-createCard("Correio Elegante", "correio-elegante.png",true);
-createCard("Pescaria de Maçã","pescaria-maca.png",true);
+createCard("Pescaria","pescaria.png");
+createCard("Boca do palhaço","palhaco.png");
+createCard("Corrida de saco", "corrida-de-saco.png");
+createCard("Dança das cadeiras", "cadeiras.png");
+createCard("Rabo </br>de burro", "burro.png");
+createCard("Jogo da argola", "argolas.png");
+createCard("Cadeia", "cadeia.png");
+createCard("Correio Elegante", "correio-elegante.png");
+createCard("Pescaria de Maçã","pescaria-maca.png");
 
 
 function openWindow(event){
     //modalWindow.style.left = `${event.clientX}px`;
     modalWindow.style.top = `${event.clientY+200}px` ;
+    const elementClicked = event.target;
+    const parentElement = elementClicked.offsetParent;
+    
+    const img = parentElement.children[0].src;
+    const name = parentElement.children[1].innerText;
+    document.querySelector('.name-modal-brincadeiras').innerText = name;
+    document.getElementById('img-brincadeiras').src = img;
 
     modalWindow.style.display = "flex";
 
