@@ -46,9 +46,17 @@ function openWindow(event){
     const parentElement = elementClicked.offsetParent;
     
     const img = parentElement.children[0].src;
-    const name = parentElement.children[1].innerText;
+    let name = parentElement.children[1].innerText;
+    name = name.split("\n");
+    if(name.length > 2){
+        name = name[0] + " "+name[1];
+    }else {
+        name = name[0];
+    }
+
     document.querySelector('.name-modal-receitas').innerText = name;
     document.getElementById('img-receitas').src = img;
+    
 
     modalWindow.style.display = "flex";
 

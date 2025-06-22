@@ -34,7 +34,8 @@ function openWindow(event){
     const parentElement = elementClicked.offsetParent;
     
     const img = parentElement.children[0].src;
-    const name = parentElement.children[1].innerText;
+    let name = parentElement.children[1].innerText;
+
     document.querySelector('.name-modal-brincadeiras').innerText = name;
     document.getElementById('img-brincadeiras').src = img;
 
