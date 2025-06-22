@@ -174,7 +174,7 @@
 
 }
 
-.img-modal-brincadeiras {
+.img-modal-brincadeiras, .img-modal-receitas {
     background-color: var(--terciaryColor);
     height: 100%;
     display: flex;
