@@ -5,7 +5,7 @@
 
 
 
-<h1 align="center" style="font-weight: bold;">Festa Junina 💻🪁</h1>
+<div align="center"><img src="src/assets/img/logo1.png" width="100px"> <h1 align="center" style="font-weight: bold;">Festa Junina 💻🪁</h1> </div>
 
 
 ![javascript][JAVASCRIPT__BADGE]
@@ -15,7 +15,7 @@
 <p align="center">
  <a href="#about">Sobre o projeto</a> • 
  <a href="#started">Acessebilidade</a> • 
-  <a href="#started">Navegação</a> • 
+  <a href="#started">Navegação</a>
 </p>
 
 
