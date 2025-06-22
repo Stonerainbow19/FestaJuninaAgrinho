@@ -1,3 +1,4 @@
+@import url('/src/style/variables.css');
 @media only screen and (max-width: 800px) {
 
     .a-wrapper-header {
@@ -16,7 +17,7 @@
 
     .bars span{
         position: absolute;
-        background-color: #000;
+        background-color: var(--terciaryColor);
         display: block;
         width: 40px;
         height: 8px;
@@ -68,6 +69,14 @@
           
     }
 
+    section{
+        .container {
+                width: 70%;
+                
+        }
+    }
+
+
     #logo {
     width: 100px;
     height: 100px;
@@ -93,9 +102,8 @@
 
     #list-menu-hamburguer li {
         padding: 20px 0;
-        box-shadow: 0px 2px 0.5px;
+        box-shadow: 0px 2px 0.5px var(--terciaryColor);
         text-align: center;
-        width: 100%;
     }
 
     #list-menu-hamburguer a{
@@ -104,11 +112,7 @@
         font-size: 1.2rem;
     }
 
-    
-    #list-menu-hamburguer a:hover{
-        text-decoration:overline;
-        color: #000;
-    }
+
 
     #menu-check:checked ~ #list-menu-hamburguer {
         display: block;

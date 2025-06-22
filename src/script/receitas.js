@@ -41,14 +41,9 @@ createCard("Cural","cural.png",true);
 
 
 function openWindow(event){
-    const elementClicked = event.target;
-    const posElement = elementClicked.getBoundingClientRect().top;
-
-    modalWindow.bottom = posElement+'px'
-
+    modalWindow.style.top = `${event.clientY+200}px` ;
     modalWindow.style.display = "flex";
 
-    
 }
 
 function exitWindow(){
