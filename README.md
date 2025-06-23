@@ -55,7 +55,7 @@ O site atende a todos os tamanhos de tela, trazendo conforto e evitando elemento
 
 <h2 id="routes">📍Navegação</h2>
 
-Here you can list the main routes of your API, and what are their expected request bodies.
+
 ​
 | rotas               | descrição                                          
 |----------------------|-----------------------------------------------------
