@@ -179,6 +179,10 @@
     grid-column-gap: 20px;
     grid-row-gap: 20px; 
     }
+    
+        .img-modal-brincadeiras img, .img-modal-receitas img{
+        width: 100px;
+    }
 
 
 

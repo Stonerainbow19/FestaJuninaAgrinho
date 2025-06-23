@@ -89,7 +89,7 @@
     width: 20%;
 }
 
-#wrapper-brincadeiras {
+#wrapper-brincadeiras { 
     width: 100%;
     display: flex;
     justify-content: center;
@@ -101,7 +101,7 @@
     align-self: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 20px; 
 
@@ -137,7 +137,7 @@
 
     }
     width: 60vw;
-    height: 50vh;
+    min-height: 50vh;
     background-color: #ffffff9a;
     display: flex;
     justify-content: space-around;
@@ -146,6 +146,7 @@
     position: relative;
     z-index: 999;
     box-shadow: 0px 3px 5px #0f03036e;
+    padding: 20px;
 
 }
 
@@ -172,7 +173,7 @@
 }
 
 .img-modal-brincadeiras, .img-modal-receitas {
-    background-color: var(--terciaryColor);
+
     height: 100%;
     display: flex;
     align-items: center;
@@ -180,6 +181,5 @@
 }
 
 .modal-brincadeiras-info h2{
-    position: absolute;
-    top: 50px;
+    margin-bottom: 30px;
 }

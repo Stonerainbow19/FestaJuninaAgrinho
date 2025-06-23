@@ -1,18 +1,19 @@
 
  .card-references {
     box-shadow: 1px 1px 5px #00000096;
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.5 all ease;
     padding: 10px;
+    transition: 0.5 ease-in-out;
  }
  
 .card-references:hover {
     box-shadow: 1px 1px 5px #00000075;
+    margin-top: 10px;
  }
 
 
