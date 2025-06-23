@@ -138,8 +138,9 @@
     position: absolute;
     top:0;
     width: 60vw;
+    max-height: 100vh;
     min-height: 50vh;
-    background-color: #ffffff9a;
+    background-color: #ffffffde;
     display: flex;
     justify-content: space-around;
     align-items: center;

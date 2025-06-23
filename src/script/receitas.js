@@ -187,7 +187,6 @@ function openWindow(event){
             7 Até a fervura, pode usar fogo alto, quando ferver, mude para médio e mantenha por aproximadamente 25 minutos.<!>
             8 Mergulhe a ponta de um palito de sorvete na calda e pingue na forma em segundos.<!>
             9 Pressione com o dedo (ela amassará) e solte sobre a forma; se ela fizer barulho de sólida, desligue imediatamente e comece o processo de mergulhar as maçãs e colocá-las sobre a forma previamente untada.<!>
-            10 Note que o ideal é realizar este processo o mais breve possível, pois a calda vai, naturalmente, endurecendo.<!>
 
             `
             );
