@@ -5,7 +5,7 @@
 
 
 
-<div display="flex" align="center"><img src="src/assets/img/logo1.png" width="100px"> <h1 align="center" style="font-weight: bold;">Festa Junina 💻🪁</h1> </div>
+<div display="flex" align="center"><img src="src/assets/img/logo1.png" width="100px"> <h1 align="center" style="font-weight: bold;">Festa Junina 💻🪁: Festejando a conexão campo-cidade</h1> </div>
 
 
 ![javascript][JAVASCRIPT__BADGE]
@@ -15,7 +15,6 @@
 <p align="center">
   <a href="#about">Sobre o projeto</a> • 
   <a href="#started">Acessibilidade </a> • 
-  <a href="#started">Originalidade </a> • 
   <a href="#started">Navegação</a> •
   <a href="#started">Desenvolvedor</a>
 
@@ -27,29 +26,30 @@
 </p>
 
 <h2 id="started">📌 Sobre o projeto</h2>
+O objetivo do projeto é promover a festa junina e reconhecer sua enorme importância à conexão entre o campo e a cidade
 
-Simple description of what your project do or how to use it.
+
 
 
 
 <h2 id="started">🚀 Acessibilidade</h2>
+Atendendo manter o melhor conforto para os usuários, temos alguns auxiliadores no site:
 
-Here you describe how to run your project locally
 
-<h3>Fontes</h3>
-
-Here you list all prerequisites necessary for running your project. For example:
+<h3>Manipulação do tamanho de fontes</h3>
+O usuário, por meio de botões, pode controlar o tamanho das fontes presentes no site.
 
 
 
 <h3>Vlibras</h3>
-
-<h2 id="started">🧠 Originalidade</h2>
-
-Here you describe how to run your project locally
+Plug-in para traduzir texto em linguagem de sinais (LIBRAS).
 
 
-How to clone your project
+<h3>Design responsivo</h3>
+O site atende a todos os tamanhos de tela, trazendo conforto e evitando elementos mal posicionados na tela do usuário.
+
+
+
 
 
 
@@ -59,14 +59,14 @@ Here you can list the main routes of your API, and what are their expected reque
 ​
 | rotas               | descrição                                          
 |----------------------|-----------------------------------------------------
-| <kbd>/src/pages/receitas.html</kbd>     | page that list all user info
-| <kbd>/src/pages/references.html</kbd>     | page to login
-| <kbd>/src/pages/brincadeiras.html</kbd>     | page that contains all user shopping and spences info
+| <kbd>/src/pages/receitas.html</kbd>     | Página de receitas de comidas típicas da festa junina
+| <kbd>/src/pages/references.html</kbd>     |  Página de referencias de conteúdo
+| <kbd>/src/pages/brincadeiras.html</kbd>     | Página de brincadeiras típicas da festa junina
 
 <h2 id="colab">🤝 Desenvolvedor</h2>
 <p>Nome: Wesley Gonçalves Ribeiro</p>
-<p>Professor: Rafael Zanchi</p>
+<p>Professor: Rafael Zanchi de Souza</p>
 <p>Instituição de ensino: Colégio Estadual do Paraná</p>
 
-Special thank you for all people that contributed for this project.
+Obrigado por acessar meu projeto!!
 
