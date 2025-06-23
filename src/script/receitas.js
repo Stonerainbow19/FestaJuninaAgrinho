@@ -119,7 +119,7 @@ function openWindow(event){
             `,
             `
             1 Separe as palhas das espigas e reserve-as para embalar a pamonha depois de pronta.<!>
-            2 Com uma faca, retire os milhos das espigas e bata no liquidificador até tritura-los bem.<!>
+            2 retire os milhos das espigas e bata no liquidificador até tritura-los.<!>
             3 Depois de batido, adicione leite e bata novamente até misturar.<!>
             4 Peneire esse creme de milho em uma peneira grossa e deixe o conteúdo em uma vasilha.<!>
             5 No creme peneirado, adicione o sal, o queijo ralado e o açúcar, e misture.<!>
@@ -182,11 +182,10 @@ function openWindow(event){
             2 Espete-as com 1 ou 2 palitos (ajudará na firmeza na hora de caramelizar).<!>
             3 Unte formas de alumínio (pode ser de bolo) com óleo, bem pouco.<!>
             4 Coloque todos os ingredientes dentro de uma panela.<!>
-            5 Nesta receita não se usa nenhuma colher (pois, pode açucarar a calda).<!>
-            6 Misture apenas mexendo a panela - não use nenhum tipo de colher, pois, pode quebrar o ponto da calda.<!>
-            7 Até a fervura, pode usar fogo alto, quando ferver, mude para médio e mantenha por aproximadamente 25 minutos.<!>
-            8 Mergulhe a ponta de um palito de sorvete na calda e pingue na forma em segundos.<!>
-            9 Pressione com o dedo (ela amassará) e solte sobre a forma; se ela fizer barulho de sólida, desligue imediatamente e comece o processo de mergulhar as maçãs e colocá-las sobre a forma previamente untada.<!>
+            5 Misture apenas mexendo a panela - não use nenhum tipo de colher, pois, pode quebrar o ponto da calda.<!>
+            6 Até a fervura, pode usar fogo alto, quando ferver, mude para médio e mantenha por aproximadamente 25 minutos.<!>
+            7 Mergulhe a ponta de um palito de sorvete na calda e pingue na forma em segundos.<!>
+            8 Pressione com o dedo (ela amassará) e solte sobre a forma; se ela fizer barulho de sólida, desligue imediatamente e comece o processo de mergulhar as maçãs e colocá-las sobre a forma previamente untada.<!>
 
             `
             );
@@ -209,14 +208,9 @@ function openWindow(event){
             2 Nesse buraco, coloque o óleo, a aguardente e um pouco de água.<!>
             3 Misture a água e a farinha aos poucos, cada vez pegando um pouco mais de farinha da borda do buraco.<!>
             4 Quando a massa estiver ficando dura, coloque mais água.<!>
-            5 A massa deve ficar macia.<!>
-            6 Se estiver um pouco grudenta, não tem problema.<!>
-            7 Se estiver muito grudenta, coloque mais farinha.<!>
-            8 Se estiver dura, coloque mais água.<!>
-            9 Em uma superfície enfarinhada, abra a massa com o auxílio de um rolo, de forma que ela fique bem fina.<!>
-            10 Se não ficar fina, ela não fica crocante depois de fritar.<!>
-            11 Recheie a gosto, e feche com um garfo ou com o verso de uma faca.<!>
-            12 Frite em óleo quente (não muito) em fogo médio-alto e escorra com o auxílio de uma escumadeira, antes de deixar para secar em papel absorvente.<!>
+            5 Em uma superfície enfarinhada, abra a massa com o auxílio de um rolo, de forma que ela fique bem fina.<!>
+            6 Recheie a gosto, e feche com um garfo ou com o verso de uma faca.<!>
+            7 Frite em óleo quente (não muito) em fogo médio-alto e escorra com o auxílio de uma escumadeira, antes de deixar para secar em papel absorvente.<!>
 
             `
 

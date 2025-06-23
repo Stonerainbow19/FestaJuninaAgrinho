@@ -64,6 +64,9 @@ Here you can list the main routes of your API, and what are their expected reque
 | <kbd>/src/pages/brincadeiras.html</kbd>     | page that contains all user shopping and spences info
 
 <h2 id="colab">🤝 Desenvolvedor</h2>
+<p>Nome: Wesley Gonçalves Ribeiro</p>
+<p>Professor: Rafael Zanchi</p>
+<p>Instituição de ensino: Colégio Estadual do Paraná</p>
 
 Special thank you for all people that contributed for this project.
 

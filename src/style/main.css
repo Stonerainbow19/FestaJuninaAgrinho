@@ -29,6 +29,11 @@ body{
     list-style: square;
 }
 
+strong {
+    font-weight: bold;
+    
+}
+
 h1 {
     font-size: 4.5rem;
 }
